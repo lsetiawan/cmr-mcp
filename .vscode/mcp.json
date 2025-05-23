@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "CMR-MCP": {
+            "type": "stdio",
+            "command": "/opt/homebrew/bin/uv",
+            "args": [
+                "--directory",
+                "/Users/lsetiawan/Repos/personal/cmr-mcp",
+                "run",
+                "cmr-search.py"
+            ]
+        }
+    }
+}
